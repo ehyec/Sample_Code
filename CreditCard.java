@@ -1,7 +1,7 @@
 /**
  * Eunhye Choi
- * ec3135
- * HW6 - Part2: to check whether the credit card number is valid or not 
+ * For application only
+ * To check whether the credit card number is valid or not 
  */
 
 
