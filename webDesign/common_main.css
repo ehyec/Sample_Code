@@ -1,0 +1,127 @@
+@charset "euc-kr";
+/*webfont*/
+@font-face{
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  src: url(font/NanumBarunGothic.eot);
+  src: url(font/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+         url(font/NanumBarunGothic.woff) format('woff'),
+         url(font/NanumBarunGothic.ttf) format('truetype');
+}
+@font-face{
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  src: url(font/NanumBarunGothicBold.eot);
+  src: url(font/NanumBarunGothicBold.eot?#iefix) format('embedded-opentype'),
+         url(font/NanumBarunGothicBold.woff) format('woff'),
+         url(font/NanumBarunGothicBold.ttf) format('truetype');
+}
+
+/*reset*/
+body,div,h1,nav,ul,li,img,a,h2,span,h3,input,form,fieldset,p{margin:0; padding:0;}
+fieldset, img {border:none;}
+a{text-decoration:none;}
+legend {display:none;}
+address {font-style:normal;}
+ul,ol{list-style:none}
+table,fieldset,th,td,img{border:none}
+img,input,select{vertical-align:middle}
+
+
+@font-face {
+   font-family: Nanum Barun Gothic;
+   src: url(font/NanumBarunGothic.woff);}
+body {font-family:"Nanum Barun Gothic","³ª´® ¹Ù¸¥ °íµñ€",sans-serif; background:url(images/bg_sub.gif) repeat; }
+
+/*------------------header-----------------*/
+#header {width:100%; height:102px; z-index:100; background:#372919;  padding:2.5% 0 0 0; position:fixed; opacity:0.75; }
+#header .headerwrap {width:1000px; height:102px; margin:0 auto; }
+#header .social ul.sns {height:32px;   display:inline-block; float:left;  }
+		    .social ul.sns a {display:inline-block; margin-right:28px; line-height:19px;}
+		    .social li.sns a.facebook {width:9px; height:19px;}
+		    .social li.sns a.twitter {width:12px; height:19px;}
+		    .social li.sns a.blog {width:14px; height:19px; }
+		    .social li.sns a.search {width:32px; height:32px;margin-right:0; border:1px solid #fff; }
+#header h1 {width:234px;height:30px; background:url(images/logo.png) no-repeat; position:absolute; left:480px;  float:left; }
+#header .util_menu {width:316px; height:12px;float:right; }
+
+#header .util_menu li {float:left;}
+#header .util_menu li a {color:#fff; margin:9px 0 0 12px; font-size:12px; }
+#header .util_menu li a.store {width:45px;height:13px;float:left;}
+#header .util_menu li a.customer {width:46px;height:13px;float:left;}
+#header .util_menu li a.foundation {width:45px;height:13px;float:left;}
+#header .util_menu li a.recruit {width:71px;height:13px;float:left;}
+#header .util_menu li a.login {width:33px;height:16px;margin:0 0 0 8px; border:1px solid #786f66;z-index:0;float:left;
+								padding:7px 8px;}
+
+
+#nav {width:1000px; height:42px;  z-index:0; display:inline-block; color:#fff;  }
+#nav #gnb {width:100%; margin-top:25px; border-top:1px solid #fff; clear:both;}
+#nav #gnb li {color:#fff; float:left; display:block; font-weight:bold;}
+#nav #gnb li a {color:#fff;}
+#nav #gnb li.gnb_01 {width:188px; padding:13px 0 13px 93px;}
+#nav #gnb li.gnb_02 {width:169px; padding:13px 0 13px 0px;}
+#nav #gnb li.gnb_03 {width:183px; padding:13px 0 13px 0px;}
+#nav #gnb li.gnb_04 {width:204px; padding:13px 0 13px 0px;}
+#nav #gnb li.gnb_05 {width:157px; padding:13px 0 13px 0px;}
+#nav #gnb li a:hover {color:#aecd81;}
+
+#nav #gnb > li > a { display:block;}
+
+
+#gnb .sub_menu ul {display:block; width:100%; height:150px; font-size:0.8em; margin-top:10px;}
+#gnb .sGnb_01 > li{width:188px; padding-bottom:5px;}
+#gnb .sGnb_02 > li {width:169px; padding-bottom:5px;}
+#gnb .sGnb_03 > li {width:183px; padding-bottom:5px;}
+#gnb .sGnb_04 > li {width:204px;padding-bottom:5px;}
+#gnb .sGnb_05 > li {width:157px; padding-bottom:5px;}
+
+
+
+
+
+/*------------------//header-----------------*/
+
+/*------------------footer-----------------*/
+#footer {width:100%;overflow:hidden; background:url(images/bg_sub.gif) repeat;padding-top:70px; clear:both; }
+#footer .footerwrap {width:100%; height:180px;padding-top:85px; padding-bottom:40px; clear:both;
+					background:#514439; position:absolute; top:1981px;}
+#footer .logo_link .link_list{width:100%; height:30px; position:absolute; top:0; border-top:1px solid #cac0b6; padding-top:12px;  
+					background:url(images/bg_sub.gif) repeat; display:inline-block; padding-top:25px;}
+#footer .logo_link .footer_button .button_left {width:9px; height:13px; position:relative; left:100px; top:-60px;}
+#footer .logo_link .footer_button .button_right {width:9px; height:13px; position:relative; right:100px; top:-60px; float:right; }
+#footer .logo_link .link_list ul{height:66px;width:1000px; margin-left:130px; }
+#footer .logo_link .link_list a {float:left; margin-right:11px; }
+#footer .logo_link .link_list a.cjfood {width:55px;height:27px;margin-left:6px; margin-top:-10px;}
+#footer .logo_link .link_list a.vips {width:40px;height:24px;margin-top:-6px;}
+#footer .logo_link .link_list a.twosome {width:85px;height:20px;}
+#footer .logo_link .link_list a.bibigo {width:52px;height:22px;margin-top:-6px;}
+#footer .logo_link .link_list a.coldstone {width:66px;height:15px;margin-top:-4px;}
+#footer .logo_link .link_list a.china {width:34px;height:30px;margin-top:-6px;}
+#footer .logo_link .link_list a.common_23 {width:40px;height:30px;margin-top:-6px;}
+#footer .logo_link .link_list a.place {width:47px;height:23px;margin-top:-6px;}
+#footer .logo_link .link_list a.noodle {width:59px;height:14px;}
+#footer .logo_link .link_list a.burger {width:38px;height:24px;margin-top:-6px;}
+#footer .logo_link .link_list a.twosomeplus {width:62px;height:13px;}
+#footer .logo_link .link_list a.steakhouse {width:74px;height:16px;margin-top:-6px;}
+#footer .logo_link .link_list a.season {width:50px;height:16px;margin-top:-6px;}
+#footer .logo_link .link_list a.bibigo_kr {width:50px;height:13px;margin-top:-6px;}
+#footer .logo_link .link_list a.fish {width:51px;height:17px;margin-top:-6px;}
+#footer .logo_link .link_list a.jp {width:17px3;height:37px; margin-top:-13px;}
+
+
+#footer .footer_cnt {width:1000px; margin:0 auto;}
+#footer .footerwrap ul {width:1000px; height:13px; display:inline-block; font-size:0.8em;}
+#footer ul.footer_menu li {float:left; display:inline-block;}
+#footer ul.footer_menu li a{color:#fff; display:inline-block;background:url(images/square.png) left 5px no-repeat;margin-right:12px;
+							padding-left:8px;}
+#footer ul.footer_menu li a.company {background-image:none; padding-left:0;}
+#footer ul.footer_menu li a.privacy {color:#E1B221;}
+
+
+#footer address {clear:both;margin-top:40px; color:#fff;  font-size:0.7em; letter-spacing:0.15em; line-height:20px; font-weight:10;}
+#footer address span{letter-spacing:normal;}
+#footer .sns {float:right; position:relative; top:-180px; left:897px;}
+#footer .sns a {margin-right:30px;}
+#footer .sns a:last-child {margin-right:0;}
+/*------------------//footer-----------------*/

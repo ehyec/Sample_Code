@@ -1,0 +1,559 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="common_main.css">
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript" src="img_main.js"></script>
+
+<meta charset="UTF-8">
+<title>index</title>
+<style type="text/css">
+body {font-family:"Nanum Barun Gothic","나눔 바른 고딕",sans-serif; background:url("images/bg_sub.gif") repeat; }
+
+
+/*------------------main_image-----------------*/
+#main_image {width:100%; height:626px; background:#1d140f; z-index:0; position:fixed; clear:both; 
+			text-align:center; margin-bottom:30px;}
+#main_image .fadein {width:100%; height:626px;}
+#main_image .fadein img {width:100%; height:626px; }
+
+#main_image img.scroll {width:128px; height:50px; position:relative; top:-100px; right:7px;}
+/*------------------//main_image-----------------*/
+/*------------------contents-----------------*/
+#contents {width:100%; height:1285px; z-index:50; position:relative; top:626px;  overflow:hidden; padding-bottom:70px;
+				background:url("images/bg_sub.gif") repeat;}
+/*-----------------section1-----------------*/
+#contents .section1 {width:1000px; height:588px; margin:30px auto; overflow:hidden;}
+
+.section1 #brandvisual {position:relative; width:394px; min-width:1000px;  overflow:hidden; height:588px;  }
+.section1 #brandvisual ul {position:relative; float:left; width:394px; height:588px; overflow:hidden;}
+.section1 #brandvisual li {position:absolute; width:394px; height:588px;overflow:hidden;}
+.section1 #brandvisual li a{display:block; text-indent:-9999px;}
+.section1 #brandvisual .visual_0 { background:url("images/event1.jpg")  no-repeat;}
+.section1 #brandvisual .visual_1{ background:url("images/event3.jpg") no-repeat;}
+.section1 #brandvisual .visual_2{background:url("images/event4.png") no-repeat;}
+
+#buttonList:after {content:""; display:block; clear:both;}
+#buttonList li {background:url("images/btnVisual.png") 5px 25px no-repeat; width:14px; height:15px; float:left;
+					overflow:hidden; margin:0 5px; cursor:pointer;position:relative; left:165px; top:-40px;}
+#buttonList li.on {background-position:0 0 ;}
+#buttonList li a {display:block; text-indent:-9999px;}
+
+#contents .section1 .recomm {width:596px; height:402px; overflow:hidden; background:#fff; float:right; 
+												position:relative; top:-605px;margin-bottom:9px;}
+#contents .section1 .recomm h2 {width:159px; height:66px; display:inline-block; clear:both;
+												position:relative; right:320px;  }
+#contents .section1 .recomm ul.left_side {width:340px; height:100%; float:left; ;}
+#contents .section1 .recomm ul.left_side li {width:265px; position:relative; top:66px; left:65px;}
+#contents .section1 .recomm ul .info {position:relative; top:60px; left:30px;text-align:center; }
+#contents .section1 .recomm ul .name {display:block; font-size:1.5em; font-weight:bold; color:#6e635c;}
+#contents .section1 .recomm ul .character {display:inline-block;color:#8e703a; width:100%; position:relative; top:-18px; font-size:0.8em;}
+
+#contents .section1 .recomm ul.right_side {width:210px; height:100%; float:right; position:relative; top:-71px;}
+#contents .section1 .recomm ul.right_side li {margin-right:20px; width:167px; height:191px;text-align:center }
+#contents .section1 .recomm li.right_up img {width:160px;  background:#99cccc; }
+#contents .section1 .recomm ul .info_right_up {text-align:center; display:block; position:relative; top:-30px; right:20px;}
+#contents .section1 .recomm ul .name_right {display:block; font-size:0.8em; color:#6e635c;}
+#contents .section1 .recomm li.right_down {width:210px; height:100%;   position:relative; top:-50px;}
+#contents .section1 .recomm ul .info_right_down {text-align:center; position:relative; top:-80px;right:20px;}
+#contents .section1 .recomm ul  .name_right_down {display:block; font-size:0.8em; color:#6e635c;}
+#contents .section1 .recomm_arrow .arrow_prev {display:inline-block; position:relative; right:330px; top:130px;}
+#contents .section1 .recomm_arrow .arrow_next {display:inline-block; position:relative; left:220px;top:130px; }
+
+#contents .section1 .find_store {background:url("images/img_store_find.jpg") no-repeat; width:596px; height:177px; position:relative;
+													top:-603px; float:right;}
+#contents .section1 .search_store { float:right;display:block; color:#555; opacity:0.8; font-size:0.8em; position:relative; top:110px; left:-10px;}
+#contents .section1 .btn_search {width:44px; height:32px; display:inline-block; position:relative;right:5px; }
+/*-----------------//section1-----------------*/
+
+/*-----------------section2-----------------*/
+#contents .section2 {width:1000px; height:476px; margin:30px auto;clear:both; }
+#contents .section2 .ingredi {width:596px; height:291px; display:block; margin-bottom:10px; }
+
+#contents .section2 .ingredi #ingredi1 img.slide_bg {width:596px; height:291px;}
+#contents .section2 .ingredi #ingredi1 .ingredi_box {width:163px; height:208px; position:relative; left:413px; top:-230px;}
+#contents .section2 .ingredi #ingredi1 .ingredi_more { border:1px solid #fff; display:inline-block; width:84px;height:32px; position:relative; top:-280px; left:450px;}
+#contents .section2 .ingredi #ingredi1 .ingredi_more a {color:#fff;display:inline-block; width:100%; height:100%;  }
+#contetns .section2 .ingredi #ingredi1 a img {width:8px; height:15px; display:inline-block; }
+#contents .section2 .ingredi #ingredi1 img#button_previous {position:relative;left:350px;  top:-410px;}
+#contents .section2 .ingredi #ingredi1 img#button_next {position:relative;left:440px;top:-410px;}
+
+#contents .section2 .ingredi #ingredi2 img.slide_bg {width:596px; height:291px;}
+#contents .section2 .ingredi #ingredi2 .ingredi_box {width:163px; height:208px; position:relative; left:413px; top:-230px;}
+#contents .section2 .ingredi #ingredi2 .ingredi_more { border:1px solid #fff; display:inline-block; width:84px;height:32px; position:relative; top:-280px; left:450px;}
+#contents .section2 .ingredi #ingredi2 .ingredi_more a {color:#fff;display:inline-block; width:100%; height:100%;  }
+#contetns .section2 .ingredi #ingredi2 a img {width:8px; height:15px; display:inline-block; }
+#contents .section2 .ingredi #ingredi2 img#button_previous {position:relative;left:350px;  top:-410px;}
+#contents .section2 .ingredi #ingredi2 img#button_next {position:relative;left:440px;top:-410px;}
+
+#contents .section2 .ingredi #ingredi3 img.slide_bg {width:596px; height:291px;}
+#contents .section2 .ingredi #ingredi3 .ingredi_box {width:163px; height:208px; position:relative; left:413px; top:-230px;}
+#contents .section2 .ingredi #ingredi3 .ingredi_more { border:1px solid #fff; display:inline-block; width:84px;height:32px; position:relative; top:-280px; left:450px;}
+#contents .section2 .ingredi #ingredi3 .ingredi_more a {color:#fff;display:inline-block; width:100%; height:100%;  }
+#contetns .section2 .ingredi #ingredi3 a img {width:8px; height:15px; display:inline-block; }
+#contents .section2 .ingredi #ingredi3 img#button_previous {position:relative;left:350px;  top:-410px;}
+#contents .section2 .ingredi #ingredi3 img#button_next {position:relative;left:440px;top:-410px;}
+
+
+
+#contents .section2 .webzin {width:596px; height:175px;}
+#contents .section2 .sns_list {width:393px; height:477px; background:#fff; float:right; position:relative; top:-476px; }
+#contents .section2 .sns_list .sns_header {height:50px; background:#65544d;}
+#contents .section2 .sns_list .sns_header span {display:inline-block; width:118px; height:21px; margin:15px 0 0 28px; color:#fff;
+												font-size:1.2em; font-weight:600;}
+#contents .section2 .sns_header .section2_sns {width:127px; height:34px; display:inline-block; float:right; padding: 15px 20px 0 0;}
+#contents .section2 .sns_header .section2_sns a {display:inline-block; float:right; margin-left:24px; position:relative; left:220px;}
+#contents .section2 .sns_header a.facebook {width:9px;height:19px;position:relative; top:-52px; float:none;}
+#contents .section2 .sns_header a.twitter {width:12px; height:19px;position:relative; top:-53px; float:none;}
+#contents .section2 .sns_header a.blog {width:14px; height:19px; position:relative; top:-54px; float:none;}
+#contents .section2 .sns_body {overflow:auto; width:394px; height:427px; background:#f6f4ee;}
+#contents .section2 .sns_body > ul {padding:0 10px 0 28px;}
+#contents .section2 .sns_body .item {display:inline-block;width:100%;padding:18px 0;border-top:1px solid #e7d8c8;}
+#contents .section2 .sns_body .item:first-child {border-top:none;}
+#contents .section2 .sns_body .sns_logo {float:left;width:46px;height:46px;border:1px solid #e3e0d7;overflow:hidden;}
+#contents .section2 .sns_body .sns_contents {float:right;width:268px; font-size:0.8em;1.2; color:#575757; font-family:"돋움",Arial,sans-serif;}
+/*-----------------//section2-----------------*/
+/*-----------------banner-----------------*/
+#contents .banner {width:1000px; height:131px;margin:30px auto;}
+#contents .banner .ban_left {width:596px; height:100%; }
+#contents .banner .ban_left a {width:293px; margin-right:10px; display:inline-block; float:left;}
+#contents .banner .ban_left a:last-child {margin-right:0px;}
+#contents .banner .ban_right {width:373px; height:100%; background:#f6f4ee; float:right; position:relative; left:394px; top:-135px;
+											padding-left:20px;}
+#contents .banner .ban_right h3 {width:126px; height:14px; margin-top:20px; margin-bottom:20px;}
+#contents .banner .ban_right li {font-size:0.8em; line-height:1.5;}
+#contents .banner .ban_right li a {color:#573f26;}
+#contents .banner .ban_right span {width:15px; height:15px; border:1px solid #573f26; padding:8px 8px 7px 8px;
+													position:absolute; top:14px; left:345px;display:inline-block;}
+#contents .banner .ban_right span a {width:100%; height:100%; display:inline-block;}
+/*-----------------//banner-----------------*/
+/*------------------//contents-----------------*/
+
+
+</style>
+</head>
+
+
+
+
+<body>
+
+<div id="header">
+<div class="headerwrap">
+
+		<div class="social">
+    		<ul class="sns">
+        		<li>
+					 <a href="#"target="_blank" class="facebook"><img src="images/facebook.png" alt="facebook"></a>
+					<a href="#" target="_blank" class="twitter"><img src="images/twitter.png" alt="twitter"></a>
+					<a href="#" target="_blank" class="blog"><img src="images/blog.png" alt="blog"></a>
+					 <a href="#" target="_blank" class="search"><img src="images/btn_search1.png" alt="search"></a>
+			 </li>
+        </ul>
+	  </div><!--social-->
+    <h1></h1>
+    <div class="util_menu">
+    	<ul>
+        	<li><a href="#" class="store">매장안내</a></li>
+            <li><a href="#" class="customer">고객센터</a></li>
+            <li><a href="#" class="foundation">창업안내</a></li>
+            <li><a href="#" class="recruit">기사 채용안내</a></li>
+            <li><a href="#" class="login">Login</a></li>
+        </ul>
+    </div><!--util_menu-->
+
+	<div id="nav">
+			<ul id="gnb"><!--dropdownmenu-->
+				<div class="sub_menu">
+				<li class="gnb_01"><!--m1 menu-->
+					<a href="#" class="depth1">브랜드 스토리</a>
+						<ul class="sGnb_01">
+							<li class="sGnb_01a"><a href="#">브랜드 스토리</a></li>
+							<li class="sGnb_01b"><a href="#">뚜레쥬르 광고</a></li>
+							<li class="sGnb_01c"><a href="#">뚜레쥬르 웹진</a></li>
+							<li class="sGnb_01d"><a href="#">라뜰리에 뚜레쥬르</a></li>
+							<li class="sGnb_01e"><a href="#">뚜레쥬르 착한빵</a></li>
+							<li class="sGnb_01f"><a href="#">글로벌 뚜레쥬르</a></li>
+							<li class="sGnb_01g"><a href="#">뉴스 & 공지사항</a></li>
+						</ul>
+				</li><!--//gnb_01-->
+				</div>
+
+				<div class="sub_menu">
+				<li class="gnb_02">
+					<a href="#" class="depth1">제품 안내</a>
+						<ul class="sGnb_02">
+							<li class="sGnb_02a"><a href="#">신제품</a></li>
+							<li class="sGnb_02b"><a href="#">빵</a></li>
+							<li class="sGnb_02c"><a href="#">케이크</a></li>
+							<li class="sGnb_02d"><a href="#">샌드위치</a></li>
+							<li class="sGnb_02e"><a href="#">음료</a></li>
+							<li class="sGnb_02f"><a href="#">기타</a></li>
+							<li class="sGnb_02g"><a href="#">캐릭터 제품</a></li>
+						</ul>
+				</li><!--//gnb_02-->
+				</div>
+
+				<div class="sub_menu">
+				<li class="gnb_03">
+					<a href="#" class="depth1">재료이야기</a>
+						<ul class="sGnb_03">
+							<li class="sGnb_03a"><a href="#">재료이야기 개요</a></li>
+							<li class="sGnb_03b"><a href="#">밀가루</a></li>
+							<li class="sGnb_03c"><a href="#">천일염</a></li>
+							<li class="sGnb_03d"><a href="#">순우유</a></li>
+							<li class="sGnb_03f"><a href="#">순치즈</a></li>
+							<li class="sGnb_03f"><a href="#">순꿀</a></li>
+							<li class="sGnb_03f"><a href="#">순감자</a></li>
+						</ul>
+				</li><!--//gnb_03-->
+				</div>
+
+				<div class="sub_menu">
+				<li class="gnb_04" class="depth1"><a href="#">이벤트&amp;멤버쉽</a>
+						<ul class="sGnb_04">
+							<li class="sGnb_04a"><a href="#">진행중인 이벤트</a></li>
+							<li class="sGnb_04b"><a href="#">이벤트 당첨자</a></li>
+							<li class="sGnb_04c"><a href="#">CJ ONE 멤버쉽</a></li>
+							<li class="sGnb_04d"><a href="#">제휴 혜택</a></li>
+						</ul>
+				</li><!--//gnb_04-->
+				</div>
+
+				<div class="sub_menu">
+				<li class="gnb_05" class="depth1"><a href="#">온라인 쇼핑몰</a>	</li><!--//gnb_05--></div>
+			</ul>
+		</nav>
+
+
+
+
+
+    </div><!--//nav-->
+	</div><!--//headerwrap-->
+</div><!--//header-->
+
+
+
+<div id="main_image">
+	<div class="fadein">
+		<img src="images/img_main1.jpg" alt="img_main1">
+		<img src="images/img_main2.jpg" alt="img_main2">
+	</div><!--//fadein-->
+
+	<img src="images/scroll.png" alt="scroll" class="scroll">
+</div><!--main_image-->
+
+
+<!--contents-->
+<div id="contents">
+	<!--section1-->
+	<div class="section1">
+		<div id="event_wrap">
+    		<div id="brandvisual">
+			<ul>
+				<li class="visual_0"><a href="#"></a></li>
+				<li class="visual_1"><a href="#"></a></li>
+				<li class="visual_2"><a href="#"></a></li>
+			</ul>
+			</div><!--//event-->
+			 <ul id="buttonList">
+			   <li class="on"><a href="#">배너1</a></li>
+			   <li><a href="#">배너2</a></li>
+			   <li><a href="#">배너3</a></li>
+			 </ul>
+		</div><!--//event_wrap-->
+
+
+        <div class="recomm">
+		    <h2><img src="images/recomm.png" alt="recomm"></h2>
+			<ul class="left_side">
+				<li><img src="images/recomm1.jpg" alt="cake1" style="width:265px;"></li>
+				<span class="info">
+					<span class="name">딸기스노우러빙</span><br>
+					<span class="character"><img src="images/icon_l.png">&nbsp;&nbsp;Drink&nbsp;&nbsp;<img src="images/icon_r.png"></span>
+				</span><!--//info-->
+			</ul><!--//LEFT_SIDE-->
+
+			<ul class="right_side">
+				<li class="right_up"><img src="images/recomm2.jpg" alt="cake2" style="width:160px"></li><!--//RIGHT_UP-->
+					<span class="info_right_up">
+					<span class="name_right">팥스노우러빙</span><br>
+					<span class="character"><img src="images/icon_l.png">&nbsp;&nbsp;Drink&nbsp;&nbsp;<img src="images/icon_r.png"></span>
+					</span><!--//info-->
+				<li class="right_down"><img src="images/recomm3.jpg" alt="cake3" style="width:160px"></li><!--//RIGHT_DOWN-->
+				<span class="info_right_down">
+					<span class="name_right_down">TLJ망고스노우러빙</span><br>
+					<span class="character"><img src="images/icon_l.png">&nbsp;&nbsp;Drink&nbsp;&nbsp;<img src="images/icon_r.png"></span>
+					</span><!--//info-->
+			</ul><!--//RIGHT_SIDE-->
+			<div class="recomm_arrow">
+				<div class="arrow_prev"><a href="#"><img src="images/prev.png" alt="prev"></a></div><!--ARROW_PREV-->
+				<div class="arrow_next"><a href="#"><img src="images/next.png" alt="next"></a></div><!--ARROW_NEXT-->
+			</div><!--recomm_arrow-->
+		</div><!--//recomm-->
+
+        <div class="find_store">
+			<fieldset class="search_store">
+				<legend>매장찾기</legend>
+				 <form>
+				 <input name="find_store" type="text" placeholder="매장명이나 시/군/구 명을 입력해 주세요." style="width:210px;height:30px; font-size:11px;">
+				 <input type="image" src="images/btn_search.gif" alt="btn_search" class="btn_search">
+				 </form>
+			</fieldset>
+		</div><!--//find_store-->
+
+    </div><!--//section1-->
+    
+
+
+
+	<!--section2-->
+    <div class="section2">
+
+    	<div class="ingredi">
+
+
+		<ul id="ingredi1">
+			<img src="images/img_slide3_1.jpg" class="slide_bg" alt="img_slide3_1">
+			<li class="ingredi_box"><img src="images/img_slide2_1.png" alt="img_slide2_1"></li>
+			<li class="ingredi_more"><a href="#"><img src="images/ingredi_more.png"></a></li>
+
+			<img id="button_previous" src="images/ingredi_arrow.png" alt="ingredi_arrow">
+			<img id="button_next" src="images/ingredi_arrow2.png" alt="ingredi_arrow">
+		</ul>
+
+		<ul id="ingredi2">
+			<img src="images/img_slide3_2.jpg" class="slide_bg" alt="img_slide3_2">
+			<li class="ingredi_box"><img src="images/img_slide2_2.png" alt="img_slide2_2"></li>
+			<li class="ingredi_more"><a href="#"><img src="images/ingredi_more.png"></a></li>
+
+			<img id="button_previous" src="images/ingredi_arrow.png" alt="ingredi_arrow">
+			<img id="button_next" src="images/ingredi_arrow2.png" alt="ingredi_arrow">
+		</ul>
+
+		<ul id="ingredi3">
+			<img src="images/img_slide3_3.jpg" class="slide_bg" alt="img_slide3_3">
+			<li class="ingredi_box"><img src="images/img_slide2_3.png" alt="img_slide2_3"></li>
+			<li class="ingredi_more"><a href="#"><img src="images/ingredi_more.png"></a></li>
+
+			<img id="button_previous" src="images/ingredi_arrow.png" alt="ingredi_arrow">
+			<img id="button_next" src="images/ingredi_arrow2.png" alt="ingredi_arrow">
+		</ul>
+
+		</div><!--//ingredi-->
+
+
+
+
+
+        <div class="webzin"><img src="images/event2.jpg" alt="webzin"></div><!--webzin-->
+        <div class="sns_list">
+        	<div class="sns_header">
+            <span>뚜레쥬르 SNS<span>
+            <ul class="section2_sns">
+            	<li>
+                <a href="#" target="_blank" class="facebook"><img src="images/facebook.png" alt="facebook"></a>
+            	<a href="#" target="_blank" class="twitter"><img src="images/twitter.png" alt="twitter"></a>
+            	<a href="#" target="_blank" class="blog"><img src="images/blog.png" alt="blog"></a>
+                </li>
+            </ul>
+            </div><!--sns_header-->
+            <div class="sns_body">
+            	<ul class="sns">
+                <li class="item">
+            		<ul class="sns_logo"><img src="images/sns_logo.jpg" alt="sns_logo" style="width:46px;height:46px;"></ul><!--sns_logo-->
+                	<ul class="sns_contents">
+                		<li class="img"><img src="images/sns_img1.jpg" alt="sns_img1"></li>
+                   		 <li class="txt">
+                    순수한 자연재료로 만들어 #더_맛있는<br>
+					#순시리즈 를 더욱 #착한가격 으로 만나보세요 :)<br><br>
+
+					물대신 유기농 우유로 만든 #빵속에_순우유<br>
+					살아숨쉬는 자연치즈가 듬뿍 #빵속에_순치즈<br>
+					강원도 천연벌꿀의 건강한 달콤함 #순꿀_호떡<br>
+					포실포실 해남감자가 쏙! #순감자_쏙_소시지<br><br>
+
+					순시리즈 베스트 빵 4종을 26% 할인된<br>
+					가격에 만나실 수 있다는 사실♡ (4/15~4/28)<br><br>
+
+					[이벤트] 순시리즈 만큼 순수한 @친구 태그!<br>
+					(뚜레쥬르 제품교환권 2천원, 10명, ~4/21)<br><br>
+
+					※ 행사제품 4종을 각 1개씩 함께 구매하실 때만<br>
+					적용되는 특가입니다.<br>
+					※ 매장별로 행사 진행 여부와 내용이 상이할 수 있습니다.<br>
+                   	 </li>
+               		 </ul><!--sns_contents-->
+                </li><!--item1-->
+                <li class="item">
+            		<ul class="sns_logo"><img src="images/sns_logo.jpg" alt="sns_logo" style="width:46px;height:46px;"></ul><!--sns_logo-->
+                	<ul class="sns_contents">
+                		<li class="img"><img src="images/sns_img4.png" alt="sns_img4"></li>
+                   		 <li class="txt">
+                    꼬르륵~ 오늘도 아침 못 드셨나요? T^T<br>
+					여러분의 바쁜 아침을 간편하고 맛있게 채워줄<br>
+					에그&튜나 모닝롤 샌드위치에 주목해주세요♡<br><br>
+
+					유기농 우유로 만든 담백한 순우유 모닝롤 속<br>
+                    부드럽고 고소한 에그쉬림프, 새콤달콤 튜나샐러드<br>
+                    두가지 맛으로 간편하고 맛있는 아침을 시작해보세요 :)<br><br>
+
+                    [이벤트] 지금 꼬르륵~ 소리 나는 사람 손!<br>
+                    (에그&튜나 모닝롤 샌드위치 5명, ~4/14)<br><br>
+                   	 </li>
+               		 </ul><!--sns_contents-->
+                </li><!--item2-->
+                <li class="item">
+            		<ul class="sns_logo"><img src="images/sns_logo.jpg" alt="sns_logo" style="width:46px;height:46px;"></ul><!--sns_logo-->
+                	<ul class="sns_contents">
+                		<li class="img"><img src="images/sns_img5.png" alt="sns_img5"></li>
+                   		 <li class="txt">
+                    한번도 안 먹어본 사람은 있어도<br>
+                    한번만 먹어본 사람은 없다는 바로 그 케이크♡<br><br>
+                    
+                    땅끝해남의 포실포실 순감자와<br>
+                    촉촉한 쌀시트가 만나 고소함과 부드러움이 가득!<br>
+                    자꾸자꾸 손이 가는 #포실포실_순감자케이크 랍니다 :)<br><br>
+                    
+                    [이벤트] 순감자 케이크 한번도 안 먹어보신 분?<br>
+                    (포실포실 순감자 케이크, 5명, ~4/13)<br><br>
+                    
+                    ▶20% 할인 받아 순감자의 세계로 퐁당!<br>
+                    http://goo.gl/0fYm2H<br><br>
+                   	 </li>
+               		 </ul><!--sns_contents-->
+                </li><!--item3-->
+                 <li class="item">
+            		<ul class="sns_logo"><img src="images/sns_logo.jpg" alt="sns_logo" style="width:46px;height:46px;"></ul><!--sns_logo-->
+                	<ul class="sns_contents">
+                		<li class="img"><img src="images/sns_img3.png" alt="sns_img3"></li>
+                   		 <li class="txt">
+                    이게 바로 바람직한 만남 &gt;.&lt; <br><br>
+
+                    강원도의 건강한 꿀벌이 선물한 #순꿀이<br>
+                    땅끝해남의 건강함을 담은 #순감자를_만났을때<br>
+                    건강함도 두배♡ 달콤담백한 맛도 두배♡<br><br>
+                    
+                    달콤함도, 담백고소한 맛도 건강한 재료로 채운<br>
+                    #순꿀이_순감자를_만났을때 를 만나보세요 :)<br><br>
+                    
+                    [이벤트] 이 친구와 나는 바람직한 만남! @친구 태그<br>
+                    (순꿀이 순감자를 만났을때, 10명, ~4/7)<br><br>
+                    
+                    ▶순감자 20% 바람직한 할인 http://goo.gl/0fYm2H<br><br>
+                   	 </li>
+               		 </ul><!--sns_contents-->
+                </li><!--item4-->
+                <li class="item">
+            		<ul class="sns_logo"><img src="images/sns_logo.jpg" alt="sns_logo" style="width:46px;height:46px;"></ul><!--sns_logo-->
+                	<ul class="sns_contents">
+                		<li class="img"><img src="images/sns_img2.png" alt="sns_img2"></li>
+                   		 <li class="txt">
+                    아이들이 신나게 뛰어놀기 좋은 따스한 봄날♡<br>
+                    에너지 UP! 시켜줄 #든든한_간식 이 필요하죠 :)<br><br>
+                    
+                    대한민국 땅끝의 건강한 에너지를 담은<br>
+                    #해남감자를_31%나 넣어 영양도 듬뿍!<br>
+                    포실포실 감자가 고소한 치즈와<br>
+                    허니머스타드를 만나 아이들 입맛에도 딱인<br>
+                    #알알이_순감자 를 만나보세요<br><br>
+                    
+                    [이벤트] 든든한 아이들 간식이 고민이신 분!<br>
+                    (알알이 순감자, 5명, ~4/3)<br><br>
+                   	 </li>
+               		 </ul><!--sns_contents-->
+                </li><!--item5-->
+               </ul><!--sns-->
+            </div><!--sns_body-->
+        </div><!--sns_list-->
+    </div><!--section2-->
+    
+    
+    <div class="banner">
+    	<div class="ban_left">
+        <a href="#"><img src="images/img_banner1.jpg" alt="banner1"></a>
+        <a href="#"><img src="images/img_banner2.jpg" alt="banner2"></a>
+        </div><!--ban_left-->
+        <div class="ban_right">
+			<h3><img src="images/news_notic.png" alt="news_notic"></h3>
+			<span><a href="#"><img src="images/news_more.png" alt="news_more"></a></span>
+			<ul>
+				<li><a href="#">뚜레쥬르, 든든한 재료로 맛 낸 감자빵 인기</a></li>
+				<li><a href="#">뚜레쥬르, 2개 구입 시 1개 기부하는 '착한빵' 신제품 선봬</a></li>
+				<li><a href="#">뚜레쥬르, '순감자' 시리즈 출시 기념 이벤트 진행</a></li>
+			</ul>
+		</div><!--ban_right-->
+    </div>
+</div><!--contents-->
+
+
+<div id="footer">
+
+    <div class="footerwrap">
+	<div class="logo_link">
+      <div class="link_list">
+      	<ul>
+			<li><a href="#" class="cjfood"><img src="images/cjfood.png" alt="cjfood"></a></li>
+			<li><a href="#" class="vips"><img src="images/vips.png" alt="vips"></a></li>
+			<li><a href="#" class="twosome"><img src="images/twosome.png" alt="twosome"></a></li>
+			<li><a href="#" class="bibigo"><img src="images/bibigo.png" alt="bibigo"></a></li>
+			<li><a href="#" class="coldstone"><img src="images/coldstone.png" alt="coldstone"></a></li>
+			<li><a href="#" class="china"><img src="images/china.png" alt="china"></a></li>
+			<li><a href="#" class="common_23"><img src="images/common_23.png" alt="common_23"></a></li>
+			<li><a href="#" class="place"><img src="images/place.png" alt="place"></a></li>
+			<li><a href="#" class="noodle"><img src="images/noodle.png" alt="noodle"></a></li>
+			<li><a href="#" class="burger"><img src="images/burger.png" alt="burger"></a></li>
+			<li><a href="#" class="twosomeplus"><img src="images/twosomeplus.png" alt="twosomeplus"></a></li>
+			<li><a href="#" class="steakhouse"><img src="images/steakhouse.png" alt="steakhouse"></a></li>
+			<li><a href="#" class="season"><img src="images/season.png" alt="season"></a></li>
+			<li><a href="#" class="bibigo_kr"><img src="images/bibigo_kr.png" alt="bibigo_kr"></a></li>
+			<li><a href="#" class="fish"><img src="images/fish.png" alt="fish"></a></li>
+			<li><a href="#" class="jp"><img src="images/jp.png" alt="jp"></a></li>
+		</ul>
+      </div><!--link_list-->
+	  <div class="footer_button">
+			<img src="images/button_left.png" alt="button_left" class="button_left">
+			<img src="images/button_right.png" alt="button_right" class="button_right">
+	  </div>
+    </div><!--logo_link-->
+    
+    
+
+    	<div class="footer_cnt">
+    	<ul class="footer_menu">
+        	<li><a href="#" class="company">회사소개</a></li>
+            <li><a href="#" class="recruit">기사 채용안내</a></li>
+            <li><a href="#" class="rule">이용약관</a></li>
+            <li><a href="#" class="foundation">창업안내</a></li>
+            <li><a href="#" class="privacy">개인정보취급방침</a></li>
+            <li><a href="#" class="email">이메일무단수집거부</a></li>
+            <li><a href="#" class="ethic">윤리신고센터</a></li>
+            <li><a href="#" class="legal">법적고지</a></li>
+            <li><a href="#" class="sitemap">사이트맵</a></li>
+        </ul><!--footer_menu-->
+        
+        <address>
+        상호명:CJ푸드빌(주)&nbsp;&nbsp;주소:서울특별시 중구 동호로 330 CJ제일제당센터 7~8층<br>
+        고객센터:1577-0700&nbsp;&nbsp; 통신판매업종신고증 제 2011-서울중구-0771호&nbsp;&nbsp; <span>사업자정보확인</span><br>
+        사업자등록번호:312-81-42519&nbsp;&nbsp; 대표이사:정문목&nbsp;&nbsp; 개인정보관리책임자:배은&nbsp;&nbsp; 대표 이메일:help_master@cj.net<br>
+    	<br><br>
+   		 <span>COPYRIGHT 2014 &copy;CJ FOODVILLE.ALL RIGHTS RESERVED.</span>
+        </address>
+        
+        <ul class="sns">
+        	<li>
+                <a href="#" target="_blank" class="facebook"><img src="images/facebook.png" alt="facebook"></a>
+            	<a href="#" target="_blank" class="twitter"><img src="images/twitter.png" alt="twitter"></a>
+            	<a href="#" target="_blank" class="blog"><img src="images/blog.png" alt="blog"></a>
+            </li>
+        </ul><!--footer_sns-->
+       </div><!--footer_cnt--> 
+    </div><!--footerwrap-->
+</div><!--footer-->
+
+</body>
+</html>
